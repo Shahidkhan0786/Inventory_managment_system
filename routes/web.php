@@ -14,3 +14,36 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/login', function () {
+    return view('login');
+});
+
+// Route::get('/home', function () {
+//     return view('masterdash');
+// });
+
+Route::get('/home', function () {
+    return view('home');
+});
+
+Route::get('/user', function () {
+    return view('user');
+});
+
+Route::get('/sales', function () {
+    return view('sales');
+});
+
+Route::get('/catagory', function () {
+    return view('catagory');
+});
+
+Route::get('/recipt', function () {
+    return view('recipt');
+});
+Route::get('/home1', function () {
+    return view('home1');
+});
+
+
+

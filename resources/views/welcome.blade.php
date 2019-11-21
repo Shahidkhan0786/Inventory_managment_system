@@ -61,9 +61,22 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
+            .bg{
+             background:url('images/raja.jpg ') no-repeat;
+             background-size: cover;
+
+             width: 100%;
+            height: 100vh;
+            
+         }
+
+
+
+
         </style>
     </head>
-    <body>
+    <body style="background:url('images/raj.jpg ') no-repeat;">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
